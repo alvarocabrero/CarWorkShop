@@ -14,7 +14,7 @@ public class MecanicosGateWayImpl implements MecanicosGateway {
 	@Override
 	public void setConnection(Connection s) {
 		con = s;
-
+ 
 	}
 
 	@Override
