@@ -22,7 +22,7 @@ public class MecanicosGateWayImpl implements MecanicosGateway {
 		if (con != null) {
 			try {
 				Statement st = con.createStatement();
-				st.executeQuery("Select select id, nombre, apellidos from TMecanicos from");
+				st.executeQuery("Select select id, nombre, apellidos from TMecanicos");
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

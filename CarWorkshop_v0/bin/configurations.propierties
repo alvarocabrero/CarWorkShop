@@ -1,0 +1,5 @@
+SQL_FIND_ALL_MECHANICS =  select id, nombre,  apellidos  from TMecanicos
+
+SQL_INSERT_MECHANIC = insert into TMecanicos (nombre, apellidos)  values (?, ?)
+
+SQL_UPDATE_MECHANIC =  update TMecanicos set  nombre = ?, apellidos = ?  where id = ?
